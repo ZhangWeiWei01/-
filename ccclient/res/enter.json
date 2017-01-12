@@ -1,0 +1,1854 @@
+{
+  "ID": "e2c4ab20-be49-4cb5-b2e3-92286b64d631",
+  "Version": "2.3.4",
+  "Name": "enter",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 52,
+        "Children": [
+          {
+            "ClipAble": false,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1332,
+            "ActionTag": 191215940,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "joinGame/Z_jiaruyouxitangchuang.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 241,
+            "Scale9OriginY": 185,
+            "Scale9Width": 251,
+            "Scale9Height": 192,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 649.4885,
+              "Y": 363.0093
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5074,
+              "Y": 0.5042
+            },
+            "PreSize": {
+              "X": 0.5727,
+              "Y": 0.9028
+            },
+            "LeftMargin": 282.9885,
+            "RightMargin": 264.0115,
+            "TopMargin": 31.9907,
+            "BottomMargin": 38.0093,
+            "Tag": 113,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close_h.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close_h.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 25,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 695.9102,
+                  "Y": 606.45
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9494,
+                  "Y": 0.933
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0862
+                },
+                "LeftMargin": 668.4102,
+                "RightMargin": 9.5898,
+                "TopMargin": 15.55,
+                "BottomMargin": 578.45,
+                "Tag": 1334,
+                "ActionTag": 305568070,
+                "Size": {
+                  "X": 55.0,
+                  "Y": 56.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 366.5,
+                  "Y": 402.48
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6192
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.7629,
+                  "Y": 0.1459
+                },
+                "LeftMargin": 86.8972,
+                "RightMargin": 86.8972,
+                "TopMargin": 152.685,
+                "BottomMargin": 402.48,
+                "Tag": 1335,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_shurukuang.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.7104,
+                      "Y": 47.2942
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0209,
+                      "Y": 0.4987
+                    },
+                    "PreSize": {
+                      "X": 0.1305,
+                      "Y": 0.7698
+                    },
+                    "LeftMargin": -24.7896,
+                    "RightMargin": 510.9953,
+                    "TopMargin": 11.0408,
+                    "BottomMargin": 10.7942,
+                    "Tag": 1336,
+                    "Children": [
+                      {
+                        "FontSize": 63,
+                        "LabelText": "0",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 36.5,
+                          "Y": 38.5002
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 246,
+                          "G": 187,
+                          "B": 43
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5274
+                        },
+                        "PreSize": {
+                          "X": 0.4384,
+                          "Y": 0.863
+                        },
+                        "LeftMargin": 20.5,
+                        "RightMargin": 20.5,
+                        "TopMargin": 2.9998,
+                        "BottomMargin": 7.0002,
+                        "Tag": 1337,
+                        "ActionTag": -531380069,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Text",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -2117385234,
+                    "Size": {
+                      "X": 73.0,
+                      "Y": 73.0
+                    },
+                    "Name": "bg0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_shurukuang.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 119.793,
+                      "Y": 47.2942
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2142,
+                      "Y": 0.4987
+                    },
+                    "PreSize": {
+                      "X": 0.1305,
+                      "Y": 0.7698
+                    },
+                    "LeftMargin": 83.293,
+                    "RightMargin": 402.9127,
+                    "TopMargin": 11.0408,
+                    "BottomMargin": 10.7942,
+                    "Tag": 1338,
+                    "Children": [
+                      {
+                        "FontSize": 63,
+                        "LabelText": "1",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 36.5,
+                          "Y": 38.471
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 246,
+                          "G": 187,
+                          "B": 43
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.527
+                        },
+                        "PreSize": {
+                          "X": 0.4384,
+                          "Y": 0.863
+                        },
+                        "LeftMargin": 20.5,
+                        "RightMargin": 20.5,
+                        "TopMargin": 3.029,
+                        "BottomMargin": 6.971,
+                        "Tag": 1339,
+                        "ActionTag": 79934807,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Text",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 885203191,
+                    "Size": {
+                      "X": 73.0,
+                      "Y": 73.0
+                    },
+                    "Name": "bg1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_shurukuang.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 227.8757,
+                      "Y": 47.2942
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4075,
+                      "Y": 0.4987
+                    },
+                    "PreSize": {
+                      "X": 0.1305,
+                      "Y": 0.7698
+                    },
+                    "LeftMargin": 191.3757,
+                    "RightMargin": 294.83,
+                    "TopMargin": 11.0408,
+                    "BottomMargin": 10.7942,
+                    "Tag": 1340,
+                    "Children": [
+                      {
+                        "FontSize": 63,
+                        "LabelText": "2",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 36.5,
+                          "Y": 38.471
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 246,
+                          "G": 187,
+                          "B": 43
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.527
+                        },
+                        "PreSize": {
+                          "X": 0.4384,
+                          "Y": 0.863
+                        },
+                        "LeftMargin": 20.5,
+                        "RightMargin": 20.5,
+                        "TopMargin": 3.029,
+                        "BottomMargin": 6.971,
+                        "Tag": 1341,
+                        "ActionTag": -1840934851,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Text",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -645566079,
+                    "Size": {
+                      "X": 73.0,
+                      "Y": 73.0
+                    },
+                    "Name": "bg2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_shurukuang.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 335.9584,
+                      "Y": 47.2942
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.6008,
+                      "Y": 0.4987
+                    },
+                    "PreSize": {
+                      "X": 0.1305,
+                      "Y": 0.7698
+                    },
+                    "LeftMargin": 299.4584,
+                    "RightMargin": 186.7473,
+                    "TopMargin": 11.0408,
+                    "BottomMargin": 10.7942,
+                    "Tag": 1342,
+                    "Children": [
+                      {
+                        "FontSize": 63,
+                        "LabelText": "3",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 36.5,
+                          "Y": 38.5002
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 246,
+                          "G": 187,
+                          "B": 43
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5274
+                        },
+                        "PreSize": {
+                          "X": 0.4384,
+                          "Y": 0.863
+                        },
+                        "LeftMargin": 20.5,
+                        "RightMargin": 20.5,
+                        "TopMargin": 2.9998,
+                        "BottomMargin": 7.0002,
+                        "Tag": 1343,
+                        "ActionTag": 990868252,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Text",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1750046669,
+                    "Size": {
+                      "X": 73.0,
+                      "Y": 73.0
+                    },
+                    "Name": "bg3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_shurukuang.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 444.041,
+                      "Y": 47.2942
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7941,
+                      "Y": 0.4987
+                    },
+                    "PreSize": {
+                      "X": 0.1305,
+                      "Y": 0.7698
+                    },
+                    "LeftMargin": 407.541,
+                    "RightMargin": 78.6647,
+                    "TopMargin": 11.0408,
+                    "BottomMargin": 10.7942,
+                    "Tag": 1344,
+                    "Children": [
+                      {
+                        "FontSize": 63,
+                        "LabelText": "4",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 36.5,
+                          "Y": 38.5002
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 246,
+                          "G": 187,
+                          "B": 43
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5274
+                        },
+                        "PreSize": {
+                          "X": 0.4384,
+                          "Y": 0.863
+                        },
+                        "LeftMargin": 20.5,
+                        "RightMargin": 20.5,
+                        "TopMargin": 2.9998,
+                        "BottomMargin": 7.0002,
+                        "Tag": 1345,
+                        "ActionTag": 1754785951,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Text",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1399885189,
+                    "Size": {
+                      "X": 73.0,
+                      "Y": 73.0
+                    },
+                    "Name": "bg4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_shurukuang.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 552.1237,
+                      "Y": 47.2942
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.9873,
+                      "Y": 0.4987
+                    },
+                    "PreSize": {
+                      "X": 0.1305,
+                      "Y": 0.7698
+                    },
+                    "LeftMargin": 515.6237,
+                    "RightMargin": -29.418,
+                    "TopMargin": 11.0408,
+                    "BottomMargin": 10.7942,
+                    "Tag": 125,
+                    "Children": [
+                      {
+                        "FontSize": 63,
+                        "LabelText": "5",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 36.5,
+                          "Y": 38.5002
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 246,
+                          "G": 187,
+                          "B": 43
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5274
+                        },
+                        "PreSize": {
+                          "X": 0.4384,
+                          "Y": 0.863
+                        },
+                        "LeftMargin": 20.5,
+                        "RightMargin": 20.5,
+                        "TopMargin": 2.9998,
+                        "BottomMargin": 7.0002,
+                        "Tag": 126,
+                        "ActionTag": -1809467711,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 63.0
+                        },
+                        "Name": "Text",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -39013878,
+                    "Size": {
+                      "X": 73.0,
+                      "Y": 73.0
+                    },
+                    "Name": "bg5",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1630681806,
+                "Size": {
+                  "X": 559.2057,
+                  "Y": 94.835
+                },
+                "Name": "top",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 367.0864,
+                  "Y": 250.9
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.337
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5008,
+                  "Y": 0.386
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.8429,
+                  "Y": 0.4659
+                },
+                "LeftMargin": 58.1635,
+                "RightMargin": 56.9907,
+                "TopMargin": 247.6825,
+                "BottomMargin": 99.4825,
+                "Tag": 1346,
+                "Children": [
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_0_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_0_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_0.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.4883,
+                      "Y": 47.7306
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3731,
+                      "Y": 0.1576
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 152.4883,
+                    "RightMargin": 309.3574,
+                    "TopMargin": 213.1044,
+                    "BottomMargin": 5.7306,
+                    "Tag": 1347,
+                    "ActionTag": -721683147,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_0",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_1_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_1_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_1.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 73.5914,
+                      "Y": 215.2568
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1191,
+                      "Y": 0.7108
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": -4.4086,
+                    "RightMargin": 466.2543,
+                    "TopMargin": 45.5782,
+                    "BottomMargin": 173.2568,
+                    "Tag": 1348,
+                    "ActionTag": -529739385,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_1",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_2_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_2_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_2.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.4883,
+                      "Y": 215.2568
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3731,
+                      "Y": 0.7108
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 152.4883,
+                    "RightMargin": 309.3574,
+                    "TopMargin": 45.5782,
+                    "BottomMargin": 173.2568,
+                    "Tag": 1349,
+                    "ActionTag": 2026210216,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_2",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_3_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_3_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_3.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 387.3849,
+                      "Y": 215.2568
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.627,
+                      "Y": 0.7108
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 309.3849,
+                    "RightMargin": 152.4608,
+                    "TopMargin": 45.5782,
+                    "BottomMargin": 173.2568,
+                    "Tag": 1350,
+                    "ActionTag": 583449053,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_3",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_4_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_4_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_4.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 544.2821,
+                      "Y": 215.2568
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8809,
+                      "Y": 0.7108
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 466.2821,
+                    "RightMargin": -4.4364,
+                    "TopMargin": 45.5782,
+                    "BottomMargin": 173.2568,
+                    "Tag": 1351,
+                    "ActionTag": 2137734391,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_4",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_5_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_5_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_5.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 73.5914,
+                      "Y": 131.4115
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1191,
+                      "Y": 0.4339
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": -4.4086,
+                    "RightMargin": 466.2543,
+                    "TopMargin": 129.4235,
+                    "BottomMargin": 89.4115,
+                    "Tag": 1352,
+                    "ActionTag": -715134,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_5",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_6_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_6_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_6.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.4883,
+                      "Y": 131.4115
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3731,
+                      "Y": 0.4339
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 152.4883,
+                    "RightMargin": 309.3574,
+                    "TopMargin": 129.4235,
+                    "BottomMargin": 89.4115,
+                    "Tag": 1353,
+                    "ActionTag": 1691768857,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_6",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_7_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_7_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_7.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 387.3851,
+                      "Y": 131.4115
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.627,
+                      "Y": 0.4339
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 309.3851,
+                    "RightMargin": 152.4606,
+                    "TopMargin": 129.4235,
+                    "BottomMargin": 89.4115,
+                    "Tag": 1354,
+                    "ActionTag": -39795137,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_7",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_8_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_8_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_8.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 544.282,
+                      "Y": 131.4115
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8809,
+                      "Y": 0.4339
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 466.282,
+                    "RightMargin": -4.4363,
+                    "TopMargin": 129.4235,
+                    "BottomMargin": 89.4115,
+                    "Tag": 1355,
+                    "ActionTag": 1854180849,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_8",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_9_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_9_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_9.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 73.5914,
+                      "Y": 47.7306
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1191,
+                      "Y": 0.1576
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": -4.4086,
+                    "RightMargin": 466.2543,
+                    "TopMargin": 213.1044,
+                    "BottomMargin": 5.7306,
+                    "Tag": 1356,
+                    "ActionTag": 441221789,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Button_9",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_Lose_weight_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_Lose_weight_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_Lose_weight.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 387.3851,
+                      "Y": 47.7306
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.627,
+                      "Y": 0.1576
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 309.3851,
+                    "RightMargin": 152.4606,
+                    "TopMargin": 213.1044,
+                    "BottomMargin": 5.7306,
+                    "Tag": 1357,
+                    "ActionTag": 907804772,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "clear",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 150,
+                      "G": 83,
+                      "B": 44
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_del_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_del_h.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Z_button_del.png",
+                      "Plist": "joinGame/joinGame.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 126,
+                    "Scale9Height": 62,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 544.282,
+                      "Y": 47.7306
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8809,
+                      "Y": 0.1576
+                    },
+                    "PreSize": {
+                      "X": 0.2525,
+                      "Y": 0.2774
+                    },
+                    "LeftMargin": 466.282,
+                    "RightMargin": -4.4363,
+                    "TopMargin": 213.1044,
+                    "BottomMargin": 5.7306,
+                    "Tag": 1358,
+                    "ActionTag": 1339784692,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 84.0
+                    },
+                    "Name": "del",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 154473676,
+                "Size": {
+                  "X": 617.8457,
+                  "Y": 302.835
+                },
+                "Name": "num",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1822881403,
+            "Size": {
+              "X": 733.0,
+              "Y": 650.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "joinGame/joinGame.plist",
+        "joinGame/joinGame.png",
+        "joinGame/Z_jiaruyouxitangchuang.png",
+        "png/Z_close.plist",
+        "png/Z_close.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

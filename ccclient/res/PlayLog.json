@@ -1,0 +1,776 @@
+{
+  "ID": "ea389ae5-a61f-497c-9d95-2b6d6de91d83",
+  "Version": "2.3.4",
+  "Name": "PlayLog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 28,
+        "Children": [
+          {
+            "ClipAble": false,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "setting/helpbg.png",
+              "Plist": ""
+            },
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 22,
+            "Scale9OriginY": 19,
+            "Scale9Width": 1236,
+            "Scale9Height": 682,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -640.0,
+            "RightMargin": -640.0,
+            "TopMargin": -360.0,
+            "BottomMargin": -360.0,
+            "Tag": 138,
+            "ActionTag": 1670230420,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "setting/zj_title.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 34,
+            "Scale9OriginY": 14,
+            "Scale9Width": 36,
+            "Scale9Height": 15,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -20.6564,
+              "Y": 316.2304
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -72.6564,
+            "RightMargin": -31.3436,
+            "TopMargin": -337.7304,
+            "BottomMargin": 294.7304,
+            "Tag": 134,
+            "ActionTag": 656522174,
+            "Size": {
+              "X": 104.0,
+              "Y": 43.0
+            },
+            "Name": "play",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "setting/backclick.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "png/Z_fanhuidianji.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 39,
+            "Scale9Height": 38,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5615,
+              "ScaleY": 0.4424
+            },
+            "Position": {
+              "X": -570.0258,
+              "Y": 307.9596
+            },
+            "Scale": {
+              "ScaleX": 1.2,
+              "ScaleY": 1.2
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -608.7693,
+            "RightMargin": 539.7693,
+            "TopMargin": -341.4156,
+            "BottomMargin": 281.4156,
+            "Tag": 135,
+            "ActionTag": -1771852471,
+            "Size": {
+              "X": 69.0,
+              "Y": 60.0
+            },
+            "Name": "yes",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "setting/help_p_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 30,
+            "Scale9OriginY": 30,
+            "Scale9Width": 1159,
+            "Scale9Height": 535,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -2.0873,
+              "Y": 15.3037
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -595.5873,
+            "RightMargin": -591.4127,
+            "TopMargin": -254.8037,
+            "BottomMargin": -224.1963,
+            "Tag": 11,
+            "Children": [
+              {
+                "ItemMargin": 5,
+                "DirectionType": "Vertical",
+                "HorizontalType": "Align_HorizontalCenter",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 32.9268,
+                  "Y": 55.2904
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0277,
+                  "Y": 0.1154
+                },
+                "PreSize": {
+                  "X": 0.9436,
+                  "Y": 0.8768
+                },
+                "LeftMargin": 32.9268,
+                "RightMargin": 34.0732,
+                "TopMargin": 3.7096,
+                "BottomMargin": 55.2904,
+                "Tag": 127,
+                "ActionTag": -1086848350,
+                "Size": {
+                  "X": 1120.0,
+                  "Y": 420.0
+                },
+                "Name": "list",
+                "ctype": "ListViewObjectData"
+              }
+            ],
+            "ActionTag": -528218928,
+            "Size": {
+              "X": 1187.0,
+              "Y": 479.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chat/Z_chat_bottom_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 25,
+            "Scale9OriginY": 26,
+            "Scale9Width": 27,
+            "Scale9Height": 27,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -17.866,
+              "Y": 185.0688
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -442.866,
+            "RightMargin": -407.134,
+            "TopMargin": -245.0688,
+            "BottomMargin": 125.0688,
+            "Tag": 128,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456dfgdfgsd",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.5189,
+                  "Y": 95.6529
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1383,
+                  "Y": 0.7971
+                },
+                "PreSize": {
+                  "X": 0.2965,
+                  "Y": 0.2
+                },
+                "LeftMargin": 117.5189,
+                "RightMargin": 480.4811,
+                "TopMargin": 12.3471,
+                "BottomMargin": 83.6529,
+                "Tag": 129,
+                "ActionTag": -113143812,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 24.0
+                },
+                "Name": "tableid",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "对战时间对战时sdfsdfsf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 564.1582,
+                  "Y": 95.6529
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6637,
+                  "Y": 0.7971
+                },
+                "PreSize": {
+                  "X": 0.3106,
+                  "Y": 0.2
+                },
+                "LeftMargin": 564.1582,
+                "RightMargin": 21.8418,
+                "TopMargin": 12.3471,
+                "BottomMargin": 83.6529,
+                "Tag": 130,
+                "ActionTag": -10047933,
+                "Size": {
+                  "X": 264.0,
+                  "Y": 24.0
+                },
+                "Name": "time",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456sdfsadsdf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.5189,
+                  "Y": 63.2632
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1383,
+                  "Y": 0.5272
+                },
+                "PreSize": {
+                  "X": 0.3106,
+                  "Y": 0.2
+                },
+                "LeftMargin": 117.5189,
+                "RightMargin": 468.4811,
+                "TopMargin": 44.7368,
+                "BottomMargin": 51.2632,
+                "Tag": 131,
+                "ActionTag": -1340340863,
+                "Size": {
+                  "X": 264.0,
+                  "Y": 24.0
+                },
+                "Name": "player0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:12345621233sd",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 564.1582,
+                  "Y": 63.2632
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6637,
+                  "Y": 0.5272
+                },
+                "PreSize": {
+                  "X": 0.2824,
+                  "Y": 0.2
+                },
+                "LeftMargin": 564.1582,
+                "RightMargin": 45.8418,
+                "TopMargin": 44.7368,
+                "BottomMargin": 51.2632,
+                "Tag": 132,
+                "ActionTag": -1440806368,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 24.0
+                },
+                "Name": "player1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456sdfsadsdf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.5189,
+                  "Y": 30.8733
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1383,
+                  "Y": 0.2573
+                },
+                "PreSize": {
+                  "X": 0.3106,
+                  "Y": 0.2
+                },
+                "LeftMargin": 117.5189,
+                "RightMargin": 468.4811,
+                "TopMargin": 77.1267,
+                "BottomMargin": 18.8733,
+                "Tag": 133,
+                "ActionTag": 1924321724,
+                "Size": {
+                  "X": 264.0,
+                  "Y": 24.0
+                },
+                "Name": "player2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456sdfdssdf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 564.1582,
+                  "Y": 30.8733
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6637,
+                  "Y": 0.2573
+                },
+                "PreSize": {
+                  "X": 0.2965,
+                  "Y": 0.2
+                },
+                "LeftMargin": 564.1582,
+                "RightMargin": 33.8418,
+                "TopMargin": 77.1267,
+                "BottomMargin": 18.8733,
+                "Tag": 134,
+                "ActionTag": 30670079,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 24.0
+                },
+                "Name": "player3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "setting/playerinfoline.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 373,
+                "Scale9Width": 387,
+                "Scale9Height": 3,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 427.0341,
+                  "Y": 11.6209
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5024,
+                  "Y": 0.0968
+                },
+                "PreSize": {
+                  "X": 1.3329,
+                  "Y": 0.025
+                },
+                "LeftMargin": -139.4659,
+                "RightMargin": -143.5341,
+                "TopMargin": 106.8791,
+                "BottomMargin": 10.1209,
+                "Tag": 175,
+                "ActionTag": -2029923158,
+                "Size": {
+                  "X": 1133.0,
+                  "Y": 3.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "120",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 5.3735,
+                  "Y": 66.0018
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0063,
+                  "Y": 0.55
+                },
+                "PreSize": {
+                  "X": 0.0847,
+                  "Y": 0.4
+                },
+                "LeftMargin": 5.3735,
+                "RightMargin": 772.6265,
+                "TopMargin": 29.9982,
+                "BottomMargin": 42.0018,
+                "Tag": 176,
+                "ActionTag": -1472994401,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 48.0
+                },
+                "Name": "num",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1836370536,
+            "Size": {
+              "X": 850.0,
+              "Y": 120.0
+            },
+            "Alpha": 234,
+            "Name": "item",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "chat/Z_chat_bottom_1.png",
+        "Default/Button_Disable.png",
+        "png/Z_fanhuidianji.png",
+        "setting/backclick.png",
+        "setting/help_p_bg.png",
+        "setting/helpbg.png",
+        "setting/playerinfoline.png",
+        "setting/zj_title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

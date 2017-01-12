@@ -1,0 +1,16 @@
+{
+  "servers":"sxmj.coolgamebox.com:15310:15311"
+  ,"wxShareUrl":"http://a.app.qq.com/o/simple.jsp?pkgname=com.happyplay.nxmj"
+  ,"voiceUrl":"http://124.232.153.18:3000/sxmj/"
+  ,"guestLogin":false
+  ,"coinRoom":false
+  ,"canEatHu":false
+  ,"hideMoney":false
+  ,"weixinBuy":"微信号1：shaoyangmj"
+  ,"noticeUrl":"http://sxmj.coolgamebox.com:800/sxmj/notice.html"
+  ,"legalUrl":"http://sxmj.coolgamebox.com:800/sxmj/legal.html"
+  ,"playUrl":"http://sxmj.coolgamebox.com:800/sxmj/play.html"
+  ,"play2Url":"http://sxmj.coolgamebox.com:800/sxmj/play2.html"
+
+  ,"homeScroll":"本游戏纯属熟人娱乐平台，禁止赌博，如因此产生的法律责任与该平台无关，谢谢合作"
+}

@@ -1,0 +1,260 @@
+{
+  "ID": "250640a5-e928-4b92-8392-8b0aa9aec5c3",
+  "Version": "2.3.4",
+  "Name": "Update",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "login/z_loading.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 436,
+            "Scale9Height": 246,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 7,
+            "ActionTag": 588231318,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "loading/load.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 110,
+            "Scale9OriginY": 14,
+            "Scale9Width": 114,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 562.7322,
+              "Y": 179.8654
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4396,
+              "Y": 0.2498
+            },
+            "PreSize": {
+              "X": 0.2609,
+              "Y": 0.0611
+            },
+            "LeftMargin": 395.7322,
+            "RightMargin": 550.2678,
+            "TopMargin": 518.1346,
+            "BottomMargin": 157.8654,
+            "Tag": 194,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "loading/dian6.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 38,
+                "Scale9OriginY": 5,
+                "Scale9Width": 41,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 411.3334,
+                  "Y": 16.43
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2315,
+                  "Y": 0.3734
+                },
+                "PreSize": {
+                  "X": 0.3503,
+                  "Y": 0.4091
+                },
+                "LeftMargin": 352.8334,
+                "RightMargin": -135.8334,
+                "TopMargin": 18.57,
+                "BottomMargin": 7.43,
+                "Tag": 195,
+                "ActionTag": 422416380,
+                "Size": {
+                  "X": 117.0,
+                  "Y": 18.0
+                },
+                "Name": "dian",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1820957360,
+            "Size": {
+              "X": 334.0,
+              "Y": 44.0
+            },
+            "Name": "load",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "png/updateBg_01.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 158,
+            "Scale9OriginY": 14,
+            "Scale9Width": 163,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 633.958,
+              "Y": 117.2028
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4953,
+              "Y": 0.1628
+            },
+            "PreSize": {
+              "X": 0.3742,
+              "Y": 0.0389
+            },
+            "LeftMargin": 394.458,
+            "RightMargin": 406.542,
+            "TopMargin": 588.7972,
+            "BottomMargin": 103.2028,
+            "Tag": 36,
+            "Children": [
+              {
+                "ProgressInfo": 0,
+                "ImageFileData": {
+                  "Type": "Normal",
+                  "Path": "png/updateBg_02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 239.5,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 76,
+                "ActionTag": -1526766623,
+                "Size": {
+                  "X": 479.0,
+                  "Y": 28.0
+                },
+                "Name": "bar",
+                "ctype": "LoadingBarObjectData"
+              }
+            ],
+            "ActionTag": 1076741238,
+            "Size": {
+              "X": 479.0,
+              "Y": 28.0
+            },
+            "Name": "barbk",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "loading/dian6.png",
+        "loading/load.png",
+        "login/z_loading.png",
+        "png/updateBg_01.png",
+        "png/updateBg_02.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

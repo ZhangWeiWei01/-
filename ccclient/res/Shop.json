@@ -1,0 +1,1450 @@
+{
+  "ID": "22092a34-d0b9-442f-8d8e-e3869ebacd9f",
+  "Version": "2.3.4",
+  "Name": "Shop",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 20,
+            "ActionTag": 855215942,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/other/Shop_floor_011.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6461,
+              "Y": 0.7806
+            },
+            "LeftMargin": 226.5,
+            "RightMargin": 226.5,
+            "TopMargin": 79.0,
+            "BottomMargin": 79.0,
+            "Tag": 21,
+            "ActionTag": 2060826568,
+            "Size": {
+              "X": 827.0,
+              "Y": 562.0
+            },
+            "Name": "back",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/other/Shop_floor1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 379.8456,
+              "Y": 354.19
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2968,
+              "Y": 0.4919
+            },
+            "PreSize": {
+              "X": 0.1187,
+              "Y": 0.2972
+            },
+            "LeftMargin": 303.8456,
+            "RightMargin": 824.1544,
+            "TopMargin": 258.81,
+            "BottomMargin": 247.19,
+            "Tag": 22,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/gem_011.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.5739,
+                  "Y": 126.2496
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4906,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.9079,
+                  "Y": 0.6449
+                },
+                "LeftMargin": 5.5739,
+                "RightMargin": 8.4261,
+                "TopMargin": 18.7504,
+                "BottomMargin": 57.2496,
+                "Tag": 23,
+                "ActionTag": -977723908,
+                "Size": {
+                  "X": 138.0,
+                  "Y": 138.0
+                },
+                "Name": "item",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "60\t",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.8986,
+                  "Y": 23.4124
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 75,
+                  "B": 33
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4862,
+                  "Y": 0.1094
+                },
+                "PreSize": {
+                  "X": 0.2368,
+                  "Y": 0.1682
+                },
+                "LeftMargin": 55.8986,
+                "RightMargin": 60.1014,
+                "TopMargin": 172.5876,
+                "BottomMargin": 5.4124,
+                "Tag": 24,
+                "ActionTag": 1961902221,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 36.0
+                },
+                "Name": "item_price",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_press1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_normal1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 127,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 78.9229,
+                  "Y": -50.73
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5192,
+                  "Y": -0.2371
+                },
+                "PreSize": {
+                  "X": 1.0329,
+                  "Y": 0.2757
+                },
+                "LeftMargin": 0.4229,
+                "RightMargin": -5.4229,
+                "TopMargin": 235.23,
+                "BottomMargin": -80.23,
+                "Tag": 34,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/number/t_price_image.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 43.6266,
+                      "Y": 32.1399
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2779,
+                      "Y": 0.5447
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.5085
+                    },
+                    "LeftMargin": 31.6266,
+                    "RightMargin": 101.3734,
+                    "TopMargin": 11.8601,
+                    "BottomMargin": 17.1399,
+                    "Tag": 35,
+                    "ActionTag": 839480738,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 30.0
+                    },
+                    "Name": "dlr_sign",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "188",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "shop/number/numFont.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5912,
+                      "ScaleY": 0.7049
+                    },
+                    "Position": {
+                      "X": 100.7877,
+                      "Y": 39.0924
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.642,
+                      "Y": 0.6626
+                    },
+                    "PreSize": {
+                      "X": 0.4586,
+                      "Y": 0.5424
+                    },
+                    "LeftMargin": 58.2213,
+                    "RightMargin": 26.7787,
+                    "TopMargin": 10.4644,
+                    "BottomMargin": 16.5356,
+                    "Tag": 32,
+                    "ActionTag": 1668225696,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 32.0
+                    },
+                    "Name": "price",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 980777084,
+                "Size": {
+                  "X": 157.0,
+                  "Y": 59.0
+                },
+                "Name": "buy",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1215978647,
+            "Size": {
+              "X": 152.0,
+              "Y": 214.0
+            },
+            "Name": "item_back_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/other/Shop_floor1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 548.44,
+              "Y": 354.19
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4285,
+              "Y": 0.4919
+            },
+            "PreSize": {
+              "X": 0.1187,
+              "Y": 0.2972
+            },
+            "LeftMargin": 472.44,
+            "RightMargin": 655.56,
+            "TopMargin": 258.81,
+            "BottomMargin": 247.19,
+            "Tag": 55,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/gem_021.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.5739,
+                  "Y": 126.2496
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4906,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.9079,
+                  "Y": 0.6449
+                },
+                "LeftMargin": 5.5739,
+                "RightMargin": 8.4261,
+                "TopMargin": 18.7504,
+                "BottomMargin": 57.2496,
+                "Tag": 56,
+                "ActionTag": 1481732172,
+                "Size": {
+                  "X": 138.0,
+                  "Y": 138.0
+                },
+                "Name": "item",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "180",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.8986,
+                  "Y": 23.4124
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 75,
+                  "B": 33
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4862,
+                  "Y": 0.1094
+                },
+                "PreSize": {
+                  "X": 0.3553,
+                  "Y": 0.1682
+                },
+                "LeftMargin": 46.8986,
+                "RightMargin": 51.1014,
+                "TopMargin": 172.5876,
+                "BottomMargin": 5.4124,
+                "Tag": 57,
+                "ActionTag": -572185081,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 36.0
+                },
+                "Name": "item_price",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_press1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_normal1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 127,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 78.9229,
+                  "Y": -50.73
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5192,
+                  "Y": -0.2371
+                },
+                "PreSize": {
+                  "X": 1.0329,
+                  "Y": 0.2757
+                },
+                "LeftMargin": 0.4229,
+                "RightMargin": -5.4229,
+                "TopMargin": 235.23,
+                "BottomMargin": -80.23,
+                "Tag": 58,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/number/t_price_image.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 43.6266,
+                      "Y": 32.1399
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2779,
+                      "Y": 0.5447
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.5085
+                    },
+                    "LeftMargin": 31.6266,
+                    "RightMargin": 101.3734,
+                    "TopMargin": 11.8601,
+                    "BottomMargin": 17.1399,
+                    "Tag": 59,
+                    "ActionTag": -437183082,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 30.0
+                    },
+                    "Name": "dlr_sign",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "18",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "shop/number/numFont.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.4106,
+                      "Y": 31.535
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6332,
+                      "Y": 0.5345
+                    },
+                    "PreSize": {
+                      "X": 0.3057,
+                      "Y": 0.5424
+                    },
+                    "LeftMargin": 75.4106,
+                    "RightMargin": 33.5894,
+                    "TopMargin": 11.465,
+                    "BottomMargin": 15.535,
+                    "Tag": 33,
+                    "ActionTag": -1210559814,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 32.0
+                    },
+                    "Name": "price",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 547551923,
+                "Size": {
+                  "X": 157.0,
+                  "Y": 59.0
+                },
+                "Name": "buy",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1528390794,
+            "Size": {
+              "X": 152.0,
+              "Y": 214.0
+            },
+            "Name": "item_back_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/other/Shop_floor1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 717.25,
+              "Y": 354.19
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5604,
+              "Y": 0.4919
+            },
+            "PreSize": {
+              "X": 0.1187,
+              "Y": 0.2972
+            },
+            "LeftMargin": 641.25,
+            "RightMargin": 486.75,
+            "TopMargin": 258.81,
+            "BottomMargin": 247.19,
+            "Tag": 61,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/gem_031.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.5739,
+                  "Y": 126.2496
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4906,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.9079,
+                  "Y": 0.6449
+                },
+                "LeftMargin": 5.5739,
+                "RightMargin": 8.4261,
+                "TopMargin": 18.7504,
+                "BottomMargin": 57.2496,
+                "Tag": 62,
+                "ActionTag": -1019015102,
+                "Size": {
+                  "X": 138.0,
+                  "Y": 138.0
+                },
+                "Name": "item",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "300\t",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.8986,
+                  "Y": 23.4124
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 75,
+                  "B": 33
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4862,
+                  "Y": 0.1094
+                },
+                "PreSize": {
+                  "X": 0.3553,
+                  "Y": 0.1682
+                },
+                "LeftMargin": 46.8986,
+                "RightMargin": 51.1014,
+                "TopMargin": 172.5876,
+                "BottomMargin": 5.4124,
+                "Tag": 63,
+                "ActionTag": -1092520664,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 36.0
+                },
+                "Name": "item_price",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_press1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_normal1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 127,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 78.9229,
+                  "Y": -50.73
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5192,
+                  "Y": -0.2371
+                },
+                "PreSize": {
+                  "X": 1.0329,
+                  "Y": 0.2757
+                },
+                "LeftMargin": 0.4229,
+                "RightMargin": -5.4229,
+                "TopMargin": 235.23,
+                "BottomMargin": -80.23,
+                "Tag": 64,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/number/t_price_image.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 43.6266,
+                      "Y": 32.1399
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2779,
+                      "Y": 0.5447
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.5085
+                    },
+                    "LeftMargin": 31.6266,
+                    "RightMargin": 101.3734,
+                    "TopMargin": 11.8601,
+                    "BottomMargin": 17.1399,
+                    "Tag": 65,
+                    "ActionTag": -333211999,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 30.0
+                    },
+                    "Name": "dlr_sign",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "18",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "shop/number/numFont.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.4108,
+                      "Y": 31.5351
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6332,
+                      "Y": 0.5345
+                    },
+                    "PreSize": {
+                      "X": 0.3057,
+                      "Y": 0.5424
+                    },
+                    "LeftMargin": 75.4108,
+                    "RightMargin": 33.5892,
+                    "TopMargin": 11.4649,
+                    "BottomMargin": 15.5351,
+                    "Tag": 34,
+                    "ActionTag": -754195102,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 32.0
+                    },
+                    "Name": "price",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1177557016,
+                "Size": {
+                  "X": 157.0,
+                  "Y": 59.0
+                },
+                "Name": "buy",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1002498978,
+            "Size": {
+              "X": 152.0,
+              "Y": 214.0
+            },
+            "Name": "item_back_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/other/Shop_floor1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 886.87,
+              "Y": 354.19
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6929,
+              "Y": 0.4919
+            },
+            "PreSize": {
+              "X": 0.1187,
+              "Y": 0.2972
+            },
+            "LeftMargin": 810.87,
+            "RightMargin": 317.13,
+            "TopMargin": 258.81,
+            "BottomMargin": 247.19,
+            "Tag": 67,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/gem_041.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.5739,
+                  "Y": 126.2496
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4906,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.9079,
+                  "Y": 0.6449
+                },
+                "LeftMargin": 5.5739,
+                "RightMargin": 8.4261,
+                "TopMargin": 18.7504,
+                "BottomMargin": 57.2496,
+                "Tag": 68,
+                "ActionTag": -578637428,
+                "Size": {
+                  "X": 138.0,
+                  "Y": 138.0
+                },
+                "Name": "item",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "680\t",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.8986,
+                  "Y": 23.4124
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 75,
+                  "B": 33
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4862,
+                  "Y": 0.1094
+                },
+                "PreSize": {
+                  "X": 0.3553,
+                  "Y": 0.1682
+                },
+                "LeftMargin": 46.8986,
+                "RightMargin": 51.1014,
+                "TopMargin": 172.5876,
+                "BottomMargin": 5.4124,
+                "Tag": 69,
+                "ActionTag": 768800589,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 36.0
+                },
+                "Name": "item_price",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_press1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/btn_ price_normal1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 127,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 78.9229,
+                  "Y": -50.73
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5192,
+                  "Y": -0.2371
+                },
+                "PreSize": {
+                  "X": 1.0329,
+                  "Y": 0.2757
+                },
+                "LeftMargin": 0.4229,
+                "RightMargin": -5.4229,
+                "TopMargin": 235.23,
+                "BottomMargin": -80.23,
+                "Tag": 70,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/number/t_price_image.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 43.6266,
+                      "Y": 32.1399
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2779,
+                      "Y": 0.5447
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.5085
+                    },
+                    "LeftMargin": 31.6266,
+                    "RightMargin": 101.3734,
+                    "TopMargin": 11.8601,
+                    "BottomMargin": 17.1399,
+                    "Tag": 71,
+                    "ActionTag": 530251789,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 30.0
+                    },
+                    "Name": "dlr_sign",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "18",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "shop/number/numFont.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.4112,
+                      "Y": 31.5352
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6332,
+                      "Y": 0.5345
+                    },
+                    "PreSize": {
+                      "X": 0.3057,
+                      "Y": 0.5424
+                    },
+                    "LeftMargin": 75.4112,
+                    "RightMargin": 33.5888,
+                    "TopMargin": 11.4648,
+                    "BottomMargin": 15.5352,
+                    "Tag": 35,
+                    "ActionTag": -763687248,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 32.0
+                    },
+                    "Name": "price",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1948505098,
+                "Size": {
+                  "X": 157.0,
+                  "Y": 59.0
+                },
+                "Name": "buy",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1563394368,
+            "Size": {
+              "X": 152.0,
+              "Y": 214.0
+            },
+            "Name": "item_back_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "close_h.png",
+              "Plist": "png/Z_close.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "close.png",
+              "Plist": "png/Z_close.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 25,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4913,
+              "ScaleY": 0.6329
+            },
+            "Position": {
+              "X": 990.397,
+              "Y": 640.2827
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7737,
+              "Y": 0.8893
+            },
+            "PreSize": {
+              "X": 0.043,
+              "Y": 0.0778
+            },
+            "LeftMargin": 963.3755,
+            "RightMargin": 261.6245,
+            "TopMargin": 59.1597,
+            "BottomMargin": 604.8403,
+            "Tag": 77,
+            "ActionTag": -61542666,
+            "Size": {
+              "X": 55.0,
+              "Y": 56.0
+            },
+            "Name": "no",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "png/Z_close.plist",
+        "png/Z_close.png",
+        "shop/number/numFont.fnt",
+        "shop/number/numFont.png",
+        "shop/number/t_price_image.png",
+        "shop/other/btn_ price_normal1.png",
+        "shop/other/btn_ price_press1.png",
+        "shop/other/gem_011.png",
+        "shop/other/gem_021.png",
+        "shop/other/gem_031.png",
+        "shop/other/gem_041.png",
+        "shop/other/Shop_floor_011.png",
+        "shop/other/Shop_floor1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

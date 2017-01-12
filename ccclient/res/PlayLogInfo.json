@@ -1,0 +1,850 @@
+{
+  "ID": "83705a92-dcc1-4e63-b0bd-d3956ddd3ffc",
+  "Version": "2.3.4",
+  "Name": "PlayLogInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 186,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 50,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -22,
+            "Scale9OriginY": -19,
+            "Scale9Width": 44,
+            "Scale9Height": 38,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -640.0,
+            "RightMargin": -640.0,
+            "TopMargin": -360.0,
+            "BottomMargin": -360.0,
+            "Tag": 201,
+            "ActionTag": -605792384,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "home/bac_datanchuan.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 30,
+            "Scale9OriginY": 30,
+            "Scale9Width": 1220,
+            "Scale9Height": 660,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -2.0873,
+              "Y": 15.3037
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -642.0873,
+            "RightMargin": -637.9127,
+            "TopMargin": -375.3037,
+            "BottomMargin": -344.6963,
+            "Tag": 197,
+            "Children": [
+              {
+                "ItemMargin": 5,
+                "DirectionType": "Vertical",
+                "HorizontalType": "Align_HorizontalCenter",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 79.8383,
+                  "Y": 148.8482
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0624,
+                  "Y": 0.2067
+                },
+                "PreSize": {
+                  "X": 0.875,
+                  "Y": 0.5833
+                },
+                "LeftMargin": 79.8383,
+                "RightMargin": 80.1617,
+                "TopMargin": 151.1518,
+                "BottomMargin": 148.8482,
+                "Tag": 198,
+                "ActionTag": -1395394641,
+                "Size": {
+                  "X": 1120.0,
+                  "Y": 420.0
+                },
+                "Name": "list",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "home/btn_x_press.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "home/btn_x_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "home/btn_x_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 65,
+                "Scale9Height": 73,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5615,
+                  "ScaleY": 0.4424
+                },
+                "Position": {
+                  "X": 1222.9825,
+                  "Y": 627.6481
+                },
+                "Scale": {
+                  "ScaleX": 1.2,
+                  "ScaleY": 1.2
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9555,
+                  "Y": 0.8717
+                },
+                "PreSize": {
+                  "X": 0.0742,
+                  "Y": 0.1319
+                },
+                "LeftMargin": 1169.64,
+                "RightMargin": 15.36,
+                "TopMargin": 39.3799,
+                "BottomMargin": 585.6201,
+                "Tag": 199,
+                "ActionTag": -111617553,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 95.0
+                },
+                "Name": "yes",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "home/zhanji_03.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 14,
+                "Scale9Width": 239,
+                "Scale9Height": 51,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 641.2996,
+                  "Y": 620.2776
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.501,
+                  "Y": 0.8615
+                },
+                "PreSize": {
+                  "X": 0.2398,
+                  "Y": 0.1097
+                },
+                "LeftMargin": 487.7996,
+                "RightMargin": 485.2004,
+                "TopMargin": 60.2224,
+                "BottomMargin": 580.7776,
+                "Tag": 200,
+                "ActionTag": -1051203082,
+                "Size": {
+                  "X": 307.0,
+                  "Y": 79.0
+                },
+                "Name": "play",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1721358811,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chat/Z_chat_bottom_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 25,
+            "Scale9OriginY": 26,
+            "Scale9Width": 27,
+            "Scale9Height": 27,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -8.9271,
+              "Y": 164.3266
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -433.9271,
+            "RightMargin": -416.0729,
+            "TopMargin": -224.3266,
+            "BottomMargin": 104.3266,
+            "Tag": 187,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456dfgdfgsd",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.5189,
+                  "Y": 95.6529
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1383,
+                  "Y": 0.7971
+                },
+                "PreSize": {
+                  "X": 0.2965,
+                  "Y": 0.2
+                },
+                "LeftMargin": 117.5189,
+                "RightMargin": 480.4811,
+                "TopMargin": 12.3471,
+                "BottomMargin": 83.6529,
+                "Tag": 188,
+                "ActionTag": 2146154412,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 24.0
+                },
+                "Name": "tableid",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "对战时间对战时sdfsdfsf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 400.0882,
+                  "Y": 95.6521
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4707,
+                  "Y": 0.7971
+                },
+                "PreSize": {
+                  "X": 0.3106,
+                  "Y": 0.2
+                },
+                "LeftMargin": 400.0882,
+                "RightMargin": 185.9118,
+                "TopMargin": 12.3479,
+                "BottomMargin": 83.6521,
+                "Tag": 189,
+                "ActionTag": 1356111422,
+                "Size": {
+                  "X": 264.0,
+                  "Y": 24.0
+                },
+                "Name": "time",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456sdfsadsdf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.5189,
+                  "Y": 63.2632
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1383,
+                  "Y": 0.5272
+                },
+                "PreSize": {
+                  "X": 0.3106,
+                  "Y": 0.2
+                },
+                "LeftMargin": 117.5189,
+                "RightMargin": 468.4811,
+                "TopMargin": 44.7368,
+                "BottomMargin": 51.2632,
+                "Tag": 190,
+                "ActionTag": -1658314716,
+                "Size": {
+                  "X": 264.0,
+                  "Y": 24.0
+                },
+                "Name": "player0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:12345621233sd",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 399.0875,
+                  "Y": 63.2615
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4695,
+                  "Y": 0.5272
+                },
+                "PreSize": {
+                  "X": 0.2824,
+                  "Y": 0.2
+                },
+                "LeftMargin": 399.0875,
+                "RightMargin": 210.9125,
+                "TopMargin": 44.7385,
+                "BottomMargin": 51.2615,
+                "Tag": 191,
+                "ActionTag": 587367468,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 24.0
+                },
+                "Name": "player1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456sdfsadsdf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.5189,
+                  "Y": 30.8733
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1383,
+                  "Y": 0.2573
+                },
+                "PreSize": {
+                  "X": 0.3106,
+                  "Y": 0.2
+                },
+                "LeftMargin": 117.5189,
+                "RightMargin": 468.4811,
+                "TopMargin": 77.1267,
+                "BottomMargin": 18.8733,
+                "Tag": 192,
+                "ActionTag": 979531580,
+                "Size": {
+                  "X": 264.0,
+                  "Y": 24.0
+                },
+                "Name": "player2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "房间号:123456sdfdssdf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 400.0882,
+                  "Y": 30.8723
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4707,
+                  "Y": 0.2573
+                },
+                "PreSize": {
+                  "X": 0.2965,
+                  "Y": 0.2
+                },
+                "LeftMargin": 400.0882,
+                "RightMargin": 197.9118,
+                "TopMargin": 77.1277,
+                "BottomMargin": 18.8723,
+                "Tag": 193,
+                "ActionTag": 817708631,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 24.0
+                },
+                "Name": "player3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "home/zhanji_13.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 373,
+                "Scale9Width": 344,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 428.5145,
+                  "Y": 10.0576
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5041,
+                  "Y": 0.0838
+                },
+                "PreSize": {
+                  "X": 1.2824,
+                  "Y": 0.0667
+                },
+                "LeftMargin": -116.4855,
+                "RightMargin": -123.5145,
+                "TopMargin": 105.9424,
+                "BottomMargin": 6.0576,
+                "Tag": 194,
+                "ActionTag": 1320615211,
+                "Size": {
+                  "X": 1090.0,
+                  "Y": 8.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "120",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 15.7983,
+                  "Y": 67.7393
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 135,
+                  "G": 88,
+                  "B": 32
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0186,
+                  "Y": 0.5645
+                },
+                "PreSize": {
+                  "X": 0.0847,
+                  "Y": 0.4
+                },
+                "LeftMargin": 15.7983,
+                "RightMargin": 762.2017,
+                "TopMargin": 28.2607,
+                "BottomMargin": 43.7393,
+                "Tag": 195,
+                "ActionTag": 1711991195,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 48.0
+                },
+                "Name": "num",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "home/zhanji_10.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "home/zhanji_06.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "home/zhanji_10.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 150,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 767.2684,
+                  "Y": 59.1641
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9027,
+                  "Y": 0.493
+                },
+                "PreSize": {
+                  "X": 0.2118,
+                  "Y": 0.5667
+                },
+                "LeftMargin": 677.2684,
+                "RightMargin": -7.2684,
+                "TopMargin": 26.8359,
+                "BottomMargin": 25.1641,
+                "Tag": 196,
+                "ActionTag": 1383583680,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 68.0
+                },
+                "Name": "replay",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -619527603,
+            "Size": {
+              "X": 850.0,
+              "Y": 120.0
+            },
+            "Alpha": 234,
+            "Name": "item",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "chat/Z_chat_bottom_1.png",
+        "home/bac_datanchuan.png",
+        "home/btn_x_normal.png",
+        "home/btn_x_press.png",
+        "home/zhanji_03.png",
+        "home/zhanji_06.png",
+        "home/zhanji_10.png",
+        "home/zhanji_13.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

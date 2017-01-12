@@ -1,0 +1,8 @@
+{
+"packageUrl":       "http://nxmj.coolgamebox.com:800/nxmj/1.0.4/",
+"remoteManifestUrl":"http://nxmj.coolgamebox.com:800/nxmj/1.0.6/project.manifest",
+"version":"1.0.6",
+"engineVersion":"3.0 beta",
+"assets":{
+   "1.0.6.zip":{"md5":"1478611942405","compressed":true}
+}}

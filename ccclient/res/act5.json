@@ -1,0 +1,452 @@
+{
+  "ID": "1266ccf4-5902-4249-975e-ba449d3c69cb",
+  "Version": "2.3.4",
+  "Name": "act5",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 198,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 95,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 242,
+            "ActionTag": -260455252,
+            "Size": {
+              "X": 968.0,
+              "Y": 540.0
+            },
+            "Alpha": 0,
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 221,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Activitys/inviteFriend/tj-yaoqing_09.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 37,
+                "Scale9OriginY": 20,
+                "Scale9Width": 904,
+                "Scale9Height": 118,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 484.1687,
+                  "Y": 268.4621
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5002,
+                  "Y": 0.4972
+                },
+                "PreSize": {
+                  "X": 0.9298,
+                  "Y": 1.0
+                },
+                "LeftMargin": 34.1687,
+                "RightMargin": 33.8313,
+                "TopMargin": 1.5379,
+                "BottomMargin": -1.5379,
+                "Tag": 243,
+                "ActionTag": -1257780521,
+                "Size": {
+                  "X": 900.0,
+                  "Y": 540.0
+                },
+                "Name": "actionBackground",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 76,
+                "LabelText": "敬 请 期 待！",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 139,
+                  "G": 105,
+                  "B": 20
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 474.9756,
+                  "Y": 312.5329
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -13.4111,
+                "RotationSkewY": -13.42,
+                "CColor": {
+                  "R": 222,
+                  "G": 139,
+                  "B": 76
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4907,
+                  "Y": 0.5788
+                },
+                "PreSize": {
+                  "X": 0.5103,
+                  "Y": 0.1407
+                },
+                "LeftMargin": 227.9756,
+                "RightMargin": 246.0244,
+                "TopMargin": 189.4671,
+                "BottomMargin": 274.5329,
+                "Tag": 163,
+                "ActionTag": -289047061,
+                "Size": {
+                  "X": 494.0,
+                  "Y": 76.0
+                },
+                "Name": "DefaultText",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "活动时间",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 271.4631,
+                  "Y": 51.5601
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 139,
+                  "B": 76
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2804,
+                  "Y": 0.0955
+                },
+                "PreSize": {
+                  "X": 0.124,
+                  "Y": 0.0556
+                },
+                "LeftMargin": 211.4631,
+                "RightMargin": 636.5369,
+                "TopMargin": 473.4399,
+                "BottomMargin": 36.5601,
+                "Tag": 159,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "2016-07-30",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 226.948,
+                      "Y": 15.5355
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 222,
+                      "G": 139,
+                      "B": 76
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.8912,
+                      "Y": 0.5178
+                    },
+                    "PreSize": {
+                      "X": 1.5,
+                      "Y": 0.9333
+                    },
+                    "LeftMargin": 136.948,
+                    "RightMargin": -196.948,
+                    "TopMargin": 0.4645,
+                    "BottomMargin": 1.5355,
+                    "Tag": 160,
+                    "ActionTag": -1842704104,
+                    "Size": {
+                      "X": 180.0,
+                      "Y": 28.0
+                    },
+                    "Name": " beganTimeText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "2016-08-30",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 445.9154,
+                      "Y": 14.9863
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 222,
+                      "G": 139,
+                      "B": 76
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 3.716,
+                      "Y": 0.4995
+                    },
+                    "PreSize": {
+                      "X": 1.5,
+                      "Y": 0.9333
+                    },
+                    "LeftMargin": 355.9154,
+                    "RightMargin": -415.9154,
+                    "TopMargin": 1.0137,
+                    "BottomMargin": 0.9863,
+                    "Tag": 161,
+                    "ActionTag": -1441259506,
+                    "Size": {
+                      "X": 180.0,
+                      "Y": 28.0
+                    },
+                    "Name": "endTimeText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "到",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 314.6075,
+                      "Y": 17.7873
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 222,
+                      "G": 139,
+                      "B": 76
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 2.6217,
+                      "Y": 0.5929
+                    },
+                    "PreSize": {
+                      "X": 0.6667,
+                      "Y": 0.9333
+                    },
+                    "LeftMargin": 274.6075,
+                    "RightMargin": -234.6075,
+                    "TopMargin": -1.7873,
+                    "BottomMargin": 3.7873,
+                    "Tag": 162,
+                    "ActionTag": 383740027,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 28.0
+                    },
+                    "Name": "and",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -808797784,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 30.0
+                },
+                "Name": "actionTime",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -2141260431,
+            "Size": {
+              "X": 968.0,
+              "Y": 540.0
+            },
+            "Name": "TimeActionPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 968.0,
+          "Y": 540.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Activitys/inviteFriend/tj-yaoqing_09.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,364 @@
+{
+  "ID": "1f0d966e-bd42-4119-9f4b-2198feec8ca2",
+  "Version": "2.3.4",
+  "Name": "PayLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 485.5289,
+              "Y": 325.7763
+            },
+            "Scale": {
+              "ScaleX": 0.7566,
+              "ScaleY": 0.8937
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5058,
+              "Y": 0.509
+            },
+            "PreSize": {
+              "X": 1.3333,
+              "Y": 1.125
+            },
+            "LeftMargin": -154.4711,
+            "RightMargin": -165.5289,
+            "TopMargin": -45.7763,
+            "BottomMargin": -34.2237,
+            "Tag": 33,
+            "ActionTag": 466230964,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "png/Z_tankuang_a.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 169,
+            "Scale9OriginY": 141,
+            "Scale9Width": 177,
+            "Scale9Height": 23,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 491.616,
+              "Y": 306.048
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5121,
+              "Y": 0.4782
+            },
+            "PreSize": {
+              "X": 0.5365,
+              "Y": 0.4766
+            },
+            "LeftMargin": 234.116,
+            "RightMargin": 210.884,
+            "TopMargin": 181.452,
+            "BottomMargin": 153.548,
+            "Tag": 24,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "png/Z_title_fangkabuzu.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.2069,
+                  "Y": 270.6628
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4858,
+                  "Y": 0.8874
+                },
+                "PreSize": {
+                  "X": 0.5029,
+                  "Y": 0.141
+                },
+                "LeftMargin": 120.7069,
+                "RightMargin": 135.2931,
+                "TopMargin": 12.8372,
+                "BottomMargin": 249.1628,
+                "Tag": 162,
+                "ActionTag": -493111790,
+                "Size": {
+                  "X": 259.0,
+                  "Y": 43.0
+                },
+                "Name": "lessMoney",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "请联系所在群主或添加以下微信号。",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 252.5083,
+                  "Y": 210.648
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 121,
+                  "G": 73,
+                  "B": 17
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4903,
+                  "Y": 0.6906
+                },
+                "PreSize": {
+                  "X": 0.7456,
+                  "Y": 0.0787
+                },
+                "LeftMargin": 60.5083,
+                "RightMargin": 70.4917,
+                "TopMargin": 82.352,
+                "BottomMargin": 198.648,
+                "Tag": 120,
+                "ActionTag": 796993175,
+                "Size": {
+                  "X": 384.0,
+                  "Y": 24.0
+                },
+                "Name": "text",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close_h.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close_h.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 25,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 470.3363,
+                  "Y": 268.5249
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9133,
+                  "Y": 0.8804
+                },
+                "PreSize": {
+                  "X": 0.1068,
+                  "Y": 0.1836
+                },
+                "LeftMargin": 442.8363,
+                "RightMargin": 17.1637,
+                "TopMargin": 8.4751,
+                "BottomMargin": 240.5249,
+                "Tag": 29,
+                "ActionTag": -1521108932,
+                "Size": {
+                  "X": 55.0,
+                  "Y": 56.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "请添加联系以下微信号,进行充值。\n请添加联系以下微信号,进行充值。\n请添加联系以下微信号,进行充值。\n请添加联系以下微信号,进行充值。",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 246.8421,
+                  "Y": 138.9169
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 121,
+                  "G": 73,
+                  "B": 17
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4793,
+                  "Y": 0.4555
+                },
+                "PreSize": {
+                  "X": 0.7223,
+                  "Y": 0.3148
+                },
+                "LeftMargin": 60.8421,
+                "RightMargin": 82.1579,
+                "TopMargin": 118.0831,
+                "BottomMargin": 90.9169,
+                "Tag": 163,
+                "ActionTag": 2003091899,
+                "Size": {
+                  "X": 372.0,
+                  "Y": 96.0
+                },
+                "Name": "weixinBuy",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1408617351,
+            "Size": {
+              "X": 515.0,
+              "Y": 305.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "png/Z_close.plist",
+        "png/Z_close.png",
+        "png/Z_tankuang_a.png",
+        "png/Z_title_fangkabuzu.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

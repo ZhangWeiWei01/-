@@ -1,0 +1,435 @@
+{
+  "ID": "d6b83093-1e53-486b-b912-59545c3fd2d7",
+  "Version": "2.3.4",
+  "Name": "BuyConfirm",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 78,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 79,
+            "ActionTag": 1469482195,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/other/Shop_floor_021.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4023,
+              "Y": 0.5083
+            },
+            "LeftMargin": 382.5,
+            "RightMargin": 382.5,
+            "TopMargin": 177.0,
+            "BottomMargin": 177.0,
+            "Tag": 80,
+            "Children": [
+              {
+                "FontSize": 36,
+                "LabelText": "是否确认购买",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 265.7639,
+                  "Y": 207.2383
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "G": 25,
+                  "B": 25
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.516,
+                  "Y": 0.5662
+                },
+                "PreSize": {
+                  "X": 0.4194,
+                  "Y": 0.0984
+                },
+                "LeftMargin": 49.7639,
+                "RightMargin": 249.2361,
+                "TopMargin": 140.7617,
+                "BottomMargin": 189.2383,
+                "Tag": 83,
+                "ActionTag": -6135578,
+                "Size": {
+                  "X": 216.0,
+                  "Y": 36.0
+                },
+                "Name": "content",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "800个",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 267.7644,
+                  "Y": 207.238
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "G": 25,
+                  "B": 25
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5199,
+                  "Y": 0.5662
+                },
+                "PreSize": {
+                  "X": 0.1748,
+                  "Y": 0.0984
+                },
+                "LeftMargin": 267.7644,
+                "RightMargin": 157.2356,
+                "TopMargin": 140.762,
+                "BottomMargin": 189.238,
+                "Tag": 85,
+                "ActionTag": -535856296,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 36.0
+                },
+                "Name": "number",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/other/gem_011.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 415.4526,
+                  "Y": 216.4323
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8067,
+                  "Y": 0.5913
+                },
+                "PreSize": {
+                  "X": 0.268,
+                  "Y": 0.377
+                },
+                "LeftMargin": 346.4526,
+                "RightMargin": 30.5474,
+                "TopMargin": 80.5677,
+                "BottomMargin": 147.4323,
+                "Tag": 84,
+                "ActionTag": 455911156,
+                "Size": {
+                  "X": 138.0,
+                  "Y": 138.0
+                },
+                "Name": "diamond",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1510757393,
+            "Size": {
+              "X": 515.0,
+              "Y": 366.0
+            },
+            "Name": "back",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "shop/other/cancel_021.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "shop/other/cancel_011.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 146,
+            "Scale9Height": 30,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 532.5974,
+              "Y": 223.683
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4161,
+              "Y": 0.3107
+            },
+            "PreSize": {
+              "X": 0.1375,
+              "Y": 0.0722
+            },
+            "LeftMargin": 444.5974,
+            "RightMargin": 659.4026,
+            "TopMargin": 470.317,
+            "BottomMargin": 197.683,
+            "Tag": 81,
+            "ActionTag": 1987302717,
+            "Size": {
+              "X": 176.0,
+              "Y": 52.0
+            },
+            "Name": "cancel",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "shop/other/agree_021.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "shop/other/agree_011.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 146,
+            "Scale9Height": 30,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 746.835,
+              "Y": 223.9081
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5835,
+              "Y": 0.311
+            },
+            "PreSize": {
+              "X": 0.1375,
+              "Y": 0.0722
+            },
+            "LeftMargin": 658.835,
+            "RightMargin": 445.165,
+            "TopMargin": 470.0919,
+            "BottomMargin": 197.9081,
+            "Tag": 82,
+            "ActionTag": -1985503716,
+            "Size": {
+              "X": 176.0,
+              "Y": 52.0
+            },
+            "Name": "confirm",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "shop/other/agree_011.png",
+        "shop/other/agree_021.png",
+        "shop/other/cancel_011.png",
+        "shop/other/cancel_021.png",
+        "shop/other/gem_011.png",
+        "shop/other/Shop_floor_021.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

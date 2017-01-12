@@ -1,0 +1,234 @@
+{
+  "ID": "7eaad6d2-62fb-4093-bbfd-2eacc8391aac",
+  "Version": "2.3.4",
+  "Name": "announcement",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 349,
+        "Children": [
+          {
+            "ClipAble": false,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 386,
+            "ActionTag": 580540430,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "png/bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 169,
+            "Scale9OriginY": 141,
+            "Scale9Width": 644,
+            "Scale9Height": 372,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7672,
+              "Y": 0.9083
+            },
+            "LeftMargin": 149.0,
+            "RightMargin": 149.0,
+            "TopMargin": 33.0,
+            "BottomMargin": 33.0,
+            "Tag": 350,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd\n皮皮麻将外挂举报，奖励50万人民币。皮皮麻将外挂举报，奖励50万dddddd",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.6736,
+                  "Y": 293.4254
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 101,
+                  "G": 57,
+                  "B": 14
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4986,
+                  "Y": 0.4487
+                },
+                "PreSize": {
+                  "X": 0.8065,
+                  "Y": 0.6239
+                },
+                "LeftMargin": 93.6736,
+                "RightMargin": 96.3264,
+                "TopMargin": 156.5746,
+                "BottomMargin": 89.4254,
+                "Tag": 304,
+                "ActionTag": -1136325522,
+                "Size": {
+                  "X": 792.0,
+                  "Y": 408.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "png/title_gonggao.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 63,
+                "Scale9OriginY": 15,
+                "Scale9Width": 66,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 491.9294,
+                  "Y": 602.416
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5009,
+                  "Y": 0.9211
+                },
+                "PreSize": {
+                  "X": 0.1955,
+                  "Y": 0.0703
+                },
+                "LeftMargin": 395.9294,
+                "RightMargin": 394.0706,
+                "TopMargin": 28.584,
+                "BottomMargin": 579.416,
+                "Tag": 241,
+                "ActionTag": -1499831527,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 46.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2101726770,
+            "Size": {
+              "X": 982.0,
+              "Y": 654.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "png/bg.png",
+        "png/title_gonggao.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

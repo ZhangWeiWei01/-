@@ -1,0 +1,639 @@
+{
+  "ID": "d493212b-58a5-48e9-9d9c-872318ea7201",
+  "Version": "2.3.4",
+  "Name": "setting",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 72,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 26,
+            "ActionTag": 736875449,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "png/Z_tankuang_a.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 169,
+            "Scale9OriginY": 141,
+            "Scale9Width": 177,
+            "Scale9Height": 23,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4023,
+              "Y": 0.4236
+            },
+            "LeftMargin": 382.5,
+            "RightMargin": 382.5,
+            "TopMargin": 207.5,
+            "BottomMargin": 207.5,
+            "Tag": 1144,
+            "Children": [
+              {
+                "FontSize": 30,
+                "LabelText": "音效",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.4459,
+                  "ScaleY": 0.5208
+                },
+                "Position": {
+                  "X": 100.1675,
+                  "Y": 196.664
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 121,
+                  "G": 73,
+                  "B": 17
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.6448
+                },
+                "PreSize": {
+                  "X": 0.1165,
+                  "Y": 0.0984
+                },
+                "LeftMargin": 73.4135,
+                "RightMargin": 381.5865,
+                "TopMargin": 93.96,
+                "BottomMargin": 181.04,
+                "Tag": 1145,
+                "ActionTag": -221869340,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 30.0
+                },
+                "Name": "Text_effect",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "音乐",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.412,
+                  "Y": 132.8885
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 121,
+                  "G": 73,
+                  "B": 17
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2008,
+                  "Y": 0.4357
+                },
+                "PreSize": {
+                  "X": 0.1165,
+                  "Y": 0.0984
+                },
+                "LeftMargin": 73.412,
+                "RightMargin": 381.588,
+                "TopMargin": 157.1115,
+                "BottomMargin": 117.8885,
+                "Tag": 1146,
+                "ActionTag": 347100049,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 30.0
+                },
+                "Name": "Text_miusic",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_title_shezhi.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 13,
+                "Scale9Width": 36,
+                "Scale9Height": 15,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 257.5,
+                  "Y": 262.3
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.86
+                },
+                "PreSize": {
+                  "X": 0.1981,
+                  "Y": 0.1344
+                },
+                "LeftMargin": 206.5,
+                "RightMargin": 206.5,
+                "TopMargin": 22.2,
+                "BottomMargin": 241.8,
+                "Tag": 1147,
+                "ActionTag": -862792565,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 41.0
+                },
+                "Name": "Image_tile",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "BackGroundData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_dichao.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "ProgressBarData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_shezhitiao.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "BallNormalData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_huakuai.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "BallPressedData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_huakuai_d.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "BallDisabledData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_huakuai_d.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "PercentInfo": 50,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 298.0703,
+                  "Y": 195.9568
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5788,
+                  "Y": 0.6425
+                },
+                "PreSize": {
+                  "X": 0.5631,
+                  "Y": 0.0492
+                },
+                "LeftMargin": 153.0703,
+                "RightMargin": 71.9297,
+                "TopMargin": 101.5432,
+                "BottomMargin": 188.4568,
+                "Tag": 1148,
+                "ActionTag": 929811148,
+                "Size": {
+                  "X": 290.0,
+                  "Y": 15.0
+                },
+                "Name": "Slider_effect",
+                "ctype": "SliderObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close_h.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close_h.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "close.png",
+                  "Plist": "png/Z_close.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 25,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 480.6288,
+                  "Y": 273.6653
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9333,
+                  "Y": 0.8973
+                },
+                "PreSize": {
+                  "X": 0.1068,
+                  "Y": 0.1836
+                },
+                "LeftMargin": 453.1288,
+                "RightMargin": 6.8712,
+                "TopMargin": 3.3347,
+                "BottomMargin": 245.6653,
+                "Tag": 1149,
+                "ActionTag": 813085948,
+                "Size": {
+                  "X": 55.0,
+                  "Y": 56.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "BackGroundData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_dichao.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "ProgressBarData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_shezhitiao.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "BallNormalData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_huakuai.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "BallPressedData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_huakuai_d.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "BallDisabledData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_huakuai_d.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "PercentInfo": 50,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 298.0703,
+                  "Y": 132.8885
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5788,
+                  "Y": 0.4357
+                },
+                "PreSize": {
+                  "X": 0.5631,
+                  "Y": 0.0492
+                },
+                "LeftMargin": 153.0703,
+                "RightMargin": 71.9297,
+                "TopMargin": 164.6115,
+                "BottomMargin": 125.3885,
+                "Tag": 1150,
+                "ActionTag": 1595288084,
+                "Size": {
+                  "X": 290.0,
+                  "Y": 15.0
+                },
+                "Name": "Slider_music",
+                "ctype": "SliderObjectData"
+              },
+              {
+                "FontSize": 36,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_tuichudenglu_h.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_tuichudenglu_h.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Z_tuichudenglu.png",
+                  "Plist": "setting/setting.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 147,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 260.487,
+                  "Y": 41.602
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5058,
+                  "Y": 0.1364
+                },
+                "PreSize": {
+                  "X": 0.3437,
+                  "Y": 0.1705
+                },
+                "LeftMargin": 171.987,
+                "RightMargin": 166.013,
+                "TopMargin": 237.398,
+                "BottomMargin": 15.602,
+                "Tag": 1151,
+                "ActionTag": -410361543,
+                "Size": {
+                  "X": 177.0,
+                  "Y": 52.0
+                },
+                "Name": "exitBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 36,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "png/Z_shengqingjiesandiananniuji.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "png/Z_shengqingjiesandiananniuji.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "png/Z_shengqingjiesananniu.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 258.4785,
+                  "Y": 41.602
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5019,
+                  "Y": 0.1364
+                },
+                "PreSize": {
+                  "X": 0.4893,
+                  "Y": 0.1705
+                },
+                "LeftMargin": 132.4785,
+                "RightMargin": 130.5215,
+                "TopMargin": 237.398,
+                "BottomMargin": 15.602,
+                "Tag": 1152,
+                "ActionTag": -2136444830,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 52.0
+                },
+                "Name": "delBtn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -108244162,
+            "Size": {
+              "X": 515.0,
+              "Y": 305.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "png/Z_close.plist",
+        "png/Z_close.png",
+        "png/Z_shengqingjiesananniu.png",
+        "png/Z_shengqingjiesandiananniuji.png",
+        "png/Z_tankuang_a.png",
+        "setting/setting.plist",
+        "setting/setting.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
