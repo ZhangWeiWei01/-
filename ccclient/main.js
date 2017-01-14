@@ -95,7 +95,9 @@ cc.game.onStart = function(){
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
 		jsclient.Scene=new JSScene();
-        cc.director.runScene(jsclient.Scene);
+		mylog("loginui----jiujiang-----");
+
+		cc.director.runScene(jsclient.Scene);
     }, this);
 };
 cc.game.run();

@@ -19,7 +19,7 @@ var BlockLayer = cc.Layer.extend({
 		jsclient.blockui=this;
         return true;
     }
-	,onEnter:function () 
+	,onEnter:function ()
 	{
         this._super();
 		jsclient.block=function()
@@ -38,13 +38,13 @@ jsclient.loadWxHead=function(uid,url)
 {
 	if(!url) url="res/png/default_headpic.png";
 	if(uid&&url) cc.loader.loadImg(url, {isCrossOrigin : true}, function(err, texture)
-    {  
+    {
         if(!err&&texture)
 		{
 			sendEvent( "QueueNetMsg",["loadWxHead",{uid:uid,img:texture}]);
-		} 
+		}
 	});
-	
+
 }
 
 var deepShareID = "569f065e87c5822";
@@ -124,8 +124,8 @@ function playEffect(sd)
 }
 function playMusic(sd)
 {
-	cc.audioEngine.stopMusic(); 
-	cc.audioEngine.playMusic("res/sound/"+sd+".mp3",true); 
+	cc.audioEngine.stopMusic();
+	cc.audioEngine.playMusic("res/sound/"+sd+".mp3",true);
 }
 
 jsclient.showPlayerInfo=function(info)
@@ -249,7 +249,7 @@ jsclient.logout=function()
   	jsclient.gamenet.request("pkcon.handler.logout",{},function(){
 		sys.localStorage.removeItem("WX_USER_LOGIN");
 		sys.localStorage.removeItem("loginData");
-		
+
 		sendEvent("logout");
 		jsclient.unblock();
 	});
@@ -259,7 +259,7 @@ jsclient.joinGame=function(tableid)
 	jsclient.block();
 
 
-	var joinPara={roomid:"symj1"};	
+	var joinPara={roomid:"symj1"};
 	if(tableid) joinPara.tableid=tableid;
 	else  joinPara.roomid="symj2";
 
@@ -337,12 +337,12 @@ jsclient.tickGame=function(tickType){
 	{
 		if(jsclient.lastMJTick<Date.now()-15000)
 		{
-		   jsclient.lastMJTick=-1;	
+		   jsclient.lastMJTick=-1;
 		   jsclient.showMsg("网络连接断开("+20+")，请检查网络设置，重新连接",function(){ jsclient.restartGame(); })
 		}
-		else 
+		else
 		{
-	       jsclient.gamenet.request("pkroom.handler.tableMsg",{cmd:"MJTick",tickType:tickType});	
+	       jsclient.gamenet.request("pkroom.handler.tableMsg",{cmd:"MJTick",tickType:tickType});
 		}
 	}
 }
@@ -423,9 +423,9 @@ jsclient.delRoom=function(yes)
 	if(sData.tData.tState==TableState.waitJoin&&sData.tData.uids[0]!=SelfUid())
 	  jsclient.leaveGame();
 	else jsclient.gamenet.request("pkroom.handler.tableMsg",{cmd:"DelRoom",yes:yes});
-}		
+}
 jsclient.netCallBack={
-	
+
 	   loadWxHead:[0.01,function(d){}]
 	   ,MJChat:[0,function(d){}]
    	   ,downAndPlayVoice:[0,function(d){}]
@@ -476,14 +476,14 @@ jsclient.netCallBack={
 			var pl=sData.players[uid];
 			// pl.uid added by bp
 			pl.uid = uid
-			pl.mjpeng=[]; 
+			pl.mjpeng=[];
 			pl.mjgang0=[];
 			pl.mjgang1=[];
 			pl.mjgang2=[];
-			pl.mjchi=[]; 
-			pl.mjput=[];	
-            delete pl.mjhand;	
-            pl.mjState=TableState.waitPut;			
+			pl.mjchi=[];
+			pl.mjput=[];
+            delete pl.mjhand;
+            pl.mjState=TableState.waitPut;
 			if(uid==SelfUid())
 			{
 				pl.mjhand=d.mjhand;
@@ -491,12 +491,12 @@ jsclient.netCallBack={
 
 			}
 			if (pl.skipHu) pl.skipHu=false;
-			
+
 		  }
 		  playEffect("shuffle");
 	  }]
 	  ,MJPut:[0.8,function(d)
-	  {   
+	  {
 		  var sData=jsclient.data.sData;
 		  var tData=sData.tData;
 		  tData.lastPut=d.card;
@@ -513,7 +513,7 @@ jsclient.netCallBack={
 		  {
 			  playEffect("nv/"+d.card);
 		  }
-		  
+
 		  if(d.uid==SelfUid())
 		  {
 			  if(d.card>100)
@@ -554,14 +554,14 @@ jsclient.netCallBack={
 	  {
 		  var sData=jsclient.data.sData;
 		  sData.tData=d.tData;
-		  
-		  var tData=sData.tData; 
+
+		  var tData=sData.tData;
 		  var uids=tData.uids;
 		  var cds=d.mjchi;
 		  cds.sort(function(a,b){return a-b});
-		  
+
 		  //mylog("MJChi "+d.mjchi+" "+d.from+" "+tData.curPlayer);
-		  
+
 		  playEffect("nv/chi");
 		  var pl=sData.players[uids[tData.curPlayer]];
 		  var lp=sData.players[uids[d.from]];
@@ -591,15 +591,15 @@ jsclient.netCallBack={
 			  }
 		  }
 	  }],
-	  
+
 	  MJPeng:[0,function(d)
 	  {
 		  var sData=jsclient.data.sData;
 		  sData.tData=d.tData;
-		  var tData=sData.tData; 
+		  var tData=sData.tData;
 		  var uids=tData.uids;
 		  var cd=tData.lastPut;
-		  
+
 		  //mylog("MJPeng "+cd+" "+d.from+" "+tData.curPlayer);
 
 		  playEffect("nv/peng");
@@ -631,13 +631,13 @@ jsclient.netCallBack={
 			  else mylog("eat error to");
 			  if(mjhand.indexOf(cd)>=0)  pl.mjpeng4.push(cd);
 		  }
-	  }]				  
+	  }]
 	  ,MJGang:[0,function(d)
 	  {
 		  //mylog("MJGang "+d.card+" "+d.gang+" "+d.from);
 		  playEffect("nv/gang");
 		  var sData=jsclient.data.sData;
-		  var tData=sData.tData; 
+		  var tData=sData.tData;
 		  var uids=tData.uids;
 		  var cd=d.card;
 		  var pl=sData.players[d.uid];
@@ -650,7 +650,7 @@ jsclient.netCallBack={
 				  pl.mjhand.splice(pl.mjhand.indexOf(cd),1);
 				  pl.mjhand.splice(pl.mjhand.indexOf(cd),1);
 			  }
-			  
+
 			  var lp=sData.players[uids[d.from]];
 			  var mjput=lp.mjput;
 			  if(mjput.length>0&&mjput[mjput.length-1]==cd)
@@ -682,9 +682,9 @@ jsclient.netCallBack={
 		  tData.curPlayer=tData.uids.indexOf(d.uid);
 		  tData.lastPut=cd;
 		  if(!tData.noBigWin||(d.gang==2&&tData.canEatHu)) tData.putType=d.gang;
-		  
+
 		  tData.tState=TableState.waitEat;
-		  
+
 		  if(d.uid==SelfUid())
 		  {
 			  pl.mjState=TableState.waitCard;
@@ -693,13 +693,13 @@ jsclient.netCallBack={
 		  {
 			  sData.players[SelfUid()+""].mjState=TableState.waitEat;
 		  }
-			  
-		  
-	  }]	
+
+
+	  }]
 	  ,roundEnd:[0,function(d)//数据
 	  {
 			var sData=jsclient.data.sData;
-			sData.tData=d.tData; 
+			sData.tData=d.tData;
 			for(var uid in d.players)
 			{
 			  var pl=d.players[uid];
@@ -715,8 +715,8 @@ jsclient.netCallBack={
 	  }]
 	  ,
 	  endRoom:[0,function(d)
-	  {   
-	        jsclient.endRoomMsg=d; 
+	  {
+	        jsclient.endRoomMsg=d;
 	        if(d.playInfo&&jsclient.data.playLog)
 			{
 				jsclient.data.playLog.logs.push(d.playInfo);
@@ -744,7 +744,7 @@ jsclient.netCallBack={
 				  var PL=sData.players[uid];
 				  if(PL)
 				  {
-					  
+
 					  if(pl.tickType<0|| pl.mjTickAt+10000<msg.serverNow )
 					  {
 						  PL.onLine=false;
@@ -780,7 +780,7 @@ jsclient.netCallBack={
 		cc.log("== DownPaoSuccess ==" + JSON.stringify(d));
 	}]
 	 ,iosiapFinish:[0, function (d) {
-		
+
 	}]
 	,DoneDownPao:[0, function (d) {
 		cc.log("=== DoneDownPao ===" + JSON.stringify(d));
@@ -794,15 +794,15 @@ jsclient.netCallBack={
 function GetUidNames(uids)
 {
 	var sData=jsclient.data.sData;
-			
+
 	var rtn=[];
 	for(var i=0;i<uids.length;i++)
 	{
 		var pl=sData.players[uids[i]];
 		if(pl) rtn.push(unescape(pl.info.nickname||pl.info.name));
-	}	
+	}
 	return rtn+"";
-	
+
 }
 
 jsclient.NetMsgQueue=[];
@@ -812,7 +812,7 @@ var JSScene = cc.Scene.extend({
 			openWeb:function(para)
 			{
 			    jsclient.uiPara=para;
-                this.addChild(new WebViewLayer());				
+                this.addChild(new WebViewLayer());
 			}
 			,popUpMsg:function(pmsg)
 			{
@@ -820,6 +820,7 @@ var JSScene = cc.Scene.extend({
 			}
 			,updateFinish:function()
 			{
+				console.log("app.js- updateFinish");
 				if(!jsclient.gamenet)jsclient.gamenet=new GameNet();
 				var servers=jsclient.remoteCfg.servers.split(',');
 				var server=servers[  Math.floor(Math.random()*servers.length)  ];
@@ -837,7 +838,7 @@ var JSScene = cc.Scene.extend({
 					mylog("loginui---------");
 					this.addChild(new LoginLayer());
 					console.log("-----------------------this is jiujiang ------------------------------ ");
-					jsclient.unblock();
+					// jsclient.unblock();
 				}
 				else
 				{
@@ -856,13 +857,13 @@ var JSScene = cc.Scene.extend({
 				}
 				else
 				{
-					jsclient.block();
+					// jsclient.block();
 					jsclient.game_on_show=true;
 					mylog("reconnect");
 					jsclient.Scene.runAction(cc.sequence(cc.delayTime(0.1),cc.callFunc(
 					  function(){ sendEvent("updateFinish"); }
 					)));
-					
+
 				}
 			},
 			loginOK:function(rtn)
@@ -945,14 +946,14 @@ var JSScene = cc.Scene.extend({
 		{
 			var ed=jsclient.NetMsgQueue[0];
 			var dh=jsclient.netCallBack[ed[0]];
-			cc.log("handle "+ed[0]); dh[1](ed[1]); 
+			cc.log("handle "+ed[0]); dh[1](ed[1]);
 			sce.runAction(cc.sequence(
 			cc.delayTime(0.0001),
 		    cc.callFunc(function()
-			{ 
+			{
 			   cc.log("uievent "+ed[0]);
 				mylog(" uievent " + ed[0]);
-			   sendEvent(ed[0],ed[1]); 
+			   sendEvent(ed[0],ed[1]);
 			   cc.log("netdelay "+dh[0]);
 			}),
 			cc.delayTime(dh[0]),
@@ -960,22 +961,27 @@ var JSScene = cc.Scene.extend({
 				jsclient.NetMsgQueue.splice(0,1);
 				if(jsclient.NetMsgQueue.length>0) sce.startQueueNetMsg();
 			})));
-		}			
+		}
 	}
-    ,onEnter:function () 
+    ,onEnter:function ()
 	{
         this._super();
+		mylog("loginui---------");
+
+		mylog("loginui---------");
 		setEffectsVolume(-1);setMusicVolume(-1);
 		ConnectUI2Logic(this,this.jsBind);
-        this.addChild(new UpdateLayer());
-		this.addChild(new BlockLayer());
+       this.addChild(new UpdateLayer());//不处理网路连接的问题
+		this.addChild(new HomeLayer());
+
+		//this.addChild(new BlockLayer());
 	 }
 });
 
 
     jsclient.native =
    {
-	 
+
 	   wxLogin:function()
 	   {
 	  		try {
@@ -992,7 +998,7 @@ var JSScene = cc.Scene.extend({
 			{
 				jsclient.native.HelloOC("wxLogin throw: " + JSON.stringify(e));
 			}
-	   	  
+
 	   }
 	   ,wxShareUrl:function(url, title, description) //showType == 1 朋友圈 字符串
 	   {

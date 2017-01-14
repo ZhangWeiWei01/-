@@ -52,7 +52,8 @@
 						jsclient.moneyarray=	jsclient.remoteCfg.moneymount.split(',');
 						jsclient.iaparray=	jsclient.remoteCfg.iaparry.split(',');
 					}
-					sendEvent("updateFinish");	
+					console.log("updateFinish - sendEvent");
+				sendEvent("updateFinish");
 				}
 				else CfgGetFail();
 			}
@@ -92,6 +93,8 @@
 			  //var remoteCfgName="android_hotUpdate.json";
               if(  cc.sys.OS_IOS == cc.sys.os )
               {
+				  console.log("cc.sys.OS_IOS == cc.sys.os");
+
                   if(jsb.fileUtils.isFileExist(jsb.fileUtils.getWritablePath()+"majiangios.txt"))
                   {
                       cc.loader.loadTxt(jsb.fileUtils.getWritablePath()+"majiangios.txt",function(er,txt){
@@ -117,12 +120,14 @@
 			cc.loader.loadTxt("res/test.cfg",function(er,txt){
 				if(er||txt.length==0)
 				{
+					console.log("GetRemoteCfgNet()");
 					GetRemoteCfgNet();
 				}
 				else 
 				{
 					LoadActivityConfig("action.json"); ///////TODO 加载活动数据 win32
 				    jsclient.remoteCfg = JSON.parse(txt);
+					console.log("sendEvent--------updateFinish");
 					sendEvent("updateFinish");	
 				}	
 			}); 
@@ -278,13 +283,18 @@ UpdateLayer = cc.Layer.extend({
 			manager.retain();
 			if (!manager.getLocalManifest().isLoaded()) 
 			{
+				console.log("----------------UpdateResource--------------1");
+
 				manager.release();
 				GetRemoteIP();
 			}
 			else 
 			{
-                listener = new jsb.EventListenerAssetsManager(manager, function (event) {
-					
+				console.log("----------------UpdateResource--------------2");
+
+				listener = new jsb.EventListenerAssetsManager(manager, function (event) {
+					console.log("sendEvent(AssetsManagerEvent,event)");
+
 					sendEvent("AssetsManagerEvent",event);
 				});
 				cc.eventManager.addListener(listener, 1);

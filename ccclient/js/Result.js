@@ -22,7 +22,7 @@
    lessCoin:32,
   
    clientRestart:33,
-   clientUpdate:34,
+   // clientUpdate:34,
    bindError:35,
 
    

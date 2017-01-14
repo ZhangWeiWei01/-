@@ -32,9 +32,9 @@ function f_login(mail,code,isLocalGuest)
 		else if(rtn.result==ZJHCode.clientRestart)
 		{
 		}
-		else if(rtn.result==ZJHCode.clientUpdate)
-		{
-		}
+		// else if(rtn.result==ZJHCode.clientUpdate)
+		// {
+		// }
 		
 		if(unblock) jsclient.unblock();
 		
@@ -52,7 +52,7 @@ function getGuest()
 }
 function LoginAsGuest()
 {
-	 jsclient.block();
+	 // jsclient.block();
 	 var guest=sys.localStorage.getItem('guestData');
 	 if(guest) guest=JSON.parse(guest);
 	 if(!guest) 
@@ -82,7 +82,7 @@ function LoginAsWeChat(wxInfo)
 
 jsclient.autoLogin=function()
 {
-	jsclient.block();
+	// jsclient.block();
 	var WX_USER_LOGIN=sys.localStorage.getItem("WX_USER_LOGIN");
 	if(WX_USER_LOGIN)
 	{

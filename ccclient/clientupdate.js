@@ -2,7 +2,7 @@ var cp = require('child_process');
 var fs = require('fs');
 
 var basedir="update/";
-var updateDesc=fs.readFileSync("update.manifest","utf8");
+// var updateDesc=fs.readFileSync("update.manifest","utf8");
 //var sampleCfg=fs.readFileSync(basedir+"sample.cfg","utf8");
 
 var tagproc = cp.spawn('git',['tag','-l']);

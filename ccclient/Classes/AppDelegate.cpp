@@ -126,26 +126,26 @@ bool AppDelegate::applicationDidFinishLaunching()
 
 	}
 	 
-	if( CCFileUtils::getInstance()->isFileExist(updatePath+"/project.manifest"))
-	{
-		rapidjson::Document d;
-		rapidjson::Document r;
-		auto  str1 = CCFileUtils::getInstance()->getStringFromFile(updatePath+"/project.manifest");
-		auto  str2 =CCFileUtils::getInstance()->getStringFromFile("res/project.manifest");
-		auto  cstr1 = str1.c_str();
-		auto  cstr2 = str2.c_str();
-		d.Parse<rapidjson::kParseDefaultFlags>(cstr1); // 0±Ì æƒ¨»œµƒΩ‚Œˆ∑Ω Ω£ª
-		std::string   up_version =	d["version"].GetString();
-		r.Parse<rapidjson::kParseDefaultFlags>(cstr2); // 0±Ì æƒ¨»œµƒΩ‚Œˆ∑Ω Ω£ª
-		std::string res_version = r["version"].GetString();
-	
-		auto num =	res_version.compare(up_version);
-		if(num>0)
-		{
-			CCFileUtils::getInstance()->removeDirectory(updatePath);
-		}
-		
-	}
+	//if( CCFileUtils::getInstance()->isFileExist(updatePath+"/project.manifest"))
+	//{
+	//	rapidjson::Document d;
+	//	rapidjson::Document r;
+	//	auto  str1 = CCFileUtils::getInstance()->getStringFromFile(updatePath+"/project.manifest");
+	//	auto  str2 =CCFileUtils::getInstance()->getStringFromFile("res/project.manifest");
+	//	auto  cstr1 = str1.c_str();
+	//	auto  cstr2 = str2.c_str();
+	//	d.Parse<rapidjson::kParseDefaultFlags>(cstr1); // 0±Ì æƒ¨»œµƒΩ‚Œˆ∑Ω Ω£ª
+	//	std::string   up_version =	d["version"].GetString();
+	//	r.Parse<rapidjson::kParseDefaultFlags>(cstr2); // 0±Ì æƒ¨»œµƒΩ‚Œˆ∑Ω Ω£ª
+	//	std::string res_version = r["version"].GetString();
+	//
+	//	auto num =	res_version.compare(up_version);
+	//	if(num>0)
+	//	{
+	//		CCFileUtils::getInstance()->removeDirectory(updatePath);
+	//	}
+	//	
+	//}
 		CCFileUtils::getInstance()->createDirectory(updatePath);
 		CCFileUtils::getInstance()->addSearchPath(updatePath,true);
 	
