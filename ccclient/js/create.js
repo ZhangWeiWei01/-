@@ -290,6 +290,8 @@ CreateLayer = cc.Layer.extend({
 			yes:{
 				_click:function(btn,evt)
 				{
+					mylog("ww- click yes btn");
+					console.log("ww- click yes btn");
 				    var majiang=jsclient.data.gameInfo.nxmj;
 					var roundStr = getRoundStr();
 				    var needMoney=getRoundPrice();

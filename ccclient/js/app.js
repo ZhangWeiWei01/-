@@ -824,9 +824,13 @@ var JSScene = cc.Scene.extend({
 				if(!jsclient.gamenet)jsclient.gamenet=new GameNet();
 				var servers=jsclient.remoteCfg.servers.split(',');
 				var server=servers[  Math.floor(Math.random()*servers.length)  ];
+				console.log("server =  = "+server);
 				var parts=server.split(':');
+				console.log("parts =  = "+parts);
 				var host=parts[0];
+				console.log("host =  = "+host);
 				var port=parseInt(parts[1+Math.floor(Math.random()*(parts.length-1))]);
+				console.log("port =  = "+port);
 				jsclient.gamenet.disconnect();
 				jsclient.gamenet.connect(host,port,function(){ sendEvent("connect"); },function(){ sendEvent("disconnect",1);});
 			},
@@ -857,7 +861,7 @@ var JSScene = cc.Scene.extend({
 				}
 				else
 				{
-					// jsclient.block();
+					jsclient.block();
 					jsclient.game_on_show=true;
 					mylog("reconnect");
 					jsclient.Scene.runAction(cc.sequence(cc.delayTime(0.1),cc.callFunc(
@@ -972,9 +976,10 @@ var JSScene = cc.Scene.extend({
 		setEffectsVolume(-1);setMusicVolume(-1);
 		ConnectUI2Logic(this,this.jsBind);
        this.addChild(new UpdateLayer());//不处理网路连接的问题
-		this.addChild(new HomeLayer());
+		this.addChild(new BlockLayer());
+		this.addChild(new HomeLayer());//new add
 
-		//this.addChild(new BlockLayer());
+
 	 }
 });
 

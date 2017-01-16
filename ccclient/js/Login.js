@@ -52,7 +52,7 @@ function getGuest()
 }
 function LoginAsGuest()
 {
-	 // jsclient.block();
+	 jsclient.block();
 	 var guest=sys.localStorage.getItem('guestData');
 	 if(guest) guest=JSON.parse(guest);
 	 if(!guest) 

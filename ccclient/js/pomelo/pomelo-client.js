@@ -190,6 +190,7 @@
       console.error('socket close: ', event);
 	  pomelo.disconnect();
       if(!!params.reconnect && reconnectAttempts < maxReconnectAttempts) {
+        console.log("run this yes or not");
         reconnect = true;
         reconnectAttempts++;
         reconncetTimer = setTimeout(function() {
@@ -198,6 +199,8 @@
         reconnectionDelay *= 2;
       }
     };
+    console.log(" socket = new WebSocket(url); = "+url);
+    url =  "ws://guazimajiang.com:3001";//http://guazimajiang.com:3001/index.html
     socket = new WebSocket(url);
     socket.binaryType = 'arraybuffer';
     socket.onopen = onopen;

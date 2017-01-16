@@ -38,16 +38,25 @@
          function CfgGetFail(){sendEvent("disconnect",5);}
          function LoadConfig(remoteCfgName)
 		{
-			
+			// jsclient.remoteCfg = {"servers":"nxmj.coolgameb1ox.com:15010:15011:15012:15013:15014:15015:15016:15017:15018:15019","wxShareUrl":"http://a.app.qq.com/o/simple.jsp?pkgname=com.happyplay.nxmj","voiceUrl":"http://118.178.124.163:9130/nxmj/","guestLogin":false,"hideWechat":false,"coinRoom":false,"canEatHu":false,"hideMoney":false,"deepShare":false,"noticeShow":true,"voiceBtnShow":true,"shareBtn":true,"scrollViewShow":true,"moneybackShow":true,"asApp":true,"weixinBuy":"rongkf7624","announcementShow":true,"activityOpen":true,"jiankang":true,"announcementContent":"公告内容：\n亲爱的玩家，四方宁夏麻将于11月30日6：00进行更新升级。\n更新内容：\n1、新增斗地主玩法（免费）\n2、修改滑水麻将为默认玩法\n3、牌池麻将UI放大\n4、打牌UI界面调整\n5、打牌界面增加时间显示\n6、优化出牌速度\n版本更新发现异常及建议反馈，请及时联系客服QQ：2733039836\n四方宁夏麻将祝您游戏愉快！","noticeUrl":"http://sources1.happyplaygame.net/nxmj/notice.html","legalUrl":"http://sources1.happyplaygame.net/nxmj/legal.html","playUrl":"http://sources1.happyplaygame.net/nxmj/play.html","play2Url":"http://sources1.happyplaygame.net/nxmj/play2.html","play3Url":"http://sources1.happyplaygame.net/nxmj/play3.html","play4Url":"http://sources1.happyplaygame.net/nxmj/play4.html","play5Url":"http://sources1.happyplaygame.net/nxmj/play5.html","play6Url":"http://sources1.happyplaygame.net/nxmj/play6.html","play7Url":"http://sources1.happyplaygame.net/nxmj/play7.html","homeScroll":"四方宁夏麻将代理招募，请联系微信rongkf7624，文明娱乐，严禁赌博！"}
+			// sendEvent("updateFinish");
+
+
+			//先注释掉，用上面写死的方式。
 			var xhr = cc.loader.getXMLHttpRequest();
 			xhr.open("GET","http://nxmj.coolgamebox.com:800/nxmj/"+remoteCfgName);
 			xhr.onreadystatechange = function ()
 			{
 				if (xhr.readyState == 4 && xhr.status == 200)
 				{
-					jsclient.remoteCfg = JSON.parse(xhr.responseText);
-					 if(  cc.sys.OS_IOS == cc.sys.os )
+					  jsclient.remoteCfg = JSON.parse(xhr.responseText);
+					// jsclient.remoteCfg = {"servers":"nxmj.coolgamebox.com:15010:15011:15012:15013:15014:15015:15016:15017:15018:15019","wxShareUrl":"http://a.app.qq.com/o/simple.jsp?pkgname=com.happyplay.nxmj","voiceUrl":"http://118.178.124.163:9130/nxmj/","guestLogin":false,"hideWechat":false,"coinRoom":false,"canEatHu":false,"hideMoney":false,"deepShare":false,"noticeShow":true,"voiceBtnShow":true,"shareBtn":true,"scrollViewShow":true,"moneybackShow":true,"asApp":true,"weixinBuy":"rongkf7624","announcementShow":true,"activityOpen":true,"jiankang":true,"announcementContent":"公告内容：\n亲爱的玩家，四方宁夏麻将于11月30日6：00进行更新升级。\n更新内容：\n1、新增斗地主玩法（免费）\n2、修改滑水麻将为默认玩法\n3、牌池麻将UI放大\n4、打牌UI界面调整\n5、打牌界面增加时间显示\n6、优化出牌速度\n版本更新发现异常及建议反馈，请及时联系客服QQ：2733039836\n四方宁夏麻将祝您游戏愉快！","noticeUrl":"http://sources1.happyplaygame.net/nxmj/notice.html","legalUrl":"http://sources1.happyplaygame.net/nxmj/legal.html","playUrl":"http://sources1.happyplaygame.net/nxmj/play.html","play2Url":"http://sources1.happyplaygame.net/nxmj/play2.html","play3Url":"http://sources1.happyplaygame.net/nxmj/play3.html","play4Url":"http://sources1.happyplaygame.net/nxmj/play4.html","play5Url":"http://sources1.happyplaygame.net/nxmj/play5.html","play6Url":"http://sources1.happyplaygame.net/nxmj/play6.html","play7Url":"http://sources1.happyplaygame.net/nxmj/play7.html","homeScroll":"四方宁夏麻将代理招募，请联系微信rongkf7624，文明娱乐，严禁赌博！"}
+					console.log("JSON.stringify(playInfo)); = "+JSON.stringify(xhr.responseText));
+					console.log("JSON.stringify(playInfo)); = "+JSON.stringify(jsclient.remoteCfg));
+
+					if(  cc.sys.OS_IOS == cc.sys.os )
 					{
+						console.log("0000000000000000000001");//这里没有走
 						jsclient.coinarry=	jsclient.remoteCfg.coinmount.split(',');
 						jsclient.moneyarray=	jsclient.remoteCfg.moneymount.split(',');
 						jsclient.iaparray=	jsclient.remoteCfg.iaparry.split(',');
@@ -110,6 +119,7 @@
                   }
                   else remoteCfgName="appstore.json";
               }
+			  console.log("remoteCfgName ---= "+remoteCfgName);
               LoadConfig(remoteCfgName);
 
 			  LoadActivityConfig("action.json"); //TODO 加载活动数据 Android
@@ -121,13 +131,14 @@
 				if(er||txt.length==0)
 				{
 					console.log("GetRemoteCfgNet()");
+					console.log("sendEvent--------updateFinish======1");
 					GetRemoteCfgNet();
 				}
 				else 
 				{
 					LoadActivityConfig("action.json"); ///////TODO 加载活动数据 win32
 				    jsclient.remoteCfg = JSON.parse(txt);
-					console.log("sendEvent--------updateFinish");
+					console.log("sendEvent--------updateFinish=======2");
 					sendEvent("updateFinish");	
 				}	
 			}); 
@@ -138,6 +149,7 @@
 			cc.log("cc.sys.isMobile = " + cc.sys.isMobile);
 			jsclient.remoteIP="127.0.0.1";
 			GetRemoteCfg();
+			console.log("jsclient.remoteIP == "+jsclient.remoteIP);
 			// var xhr = cc.loader.getXMLHttpRequest();
 			// if(!cc.sys.isMobile){
 			// 	jsclient.remoteIP="127.0.0.1";
